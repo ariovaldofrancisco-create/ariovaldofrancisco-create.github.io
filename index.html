@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprenda Matemática Brincando - Prof. Ary</title>
+
+<style>
+body { margin:0; font-family: Arial; background:#f5f7fb; }
+
+.topo {
+    background:#2b6cb0;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.titulo { font-size:22px; font-weight:bold; }
+.subtitulo { font-size:14px; }
+
+.coruja { width:90px; }
+
+.container { max-width:900px; margin:20px auto; padding:10px; }
+
+.menu { display:grid; gap:20px; }
+
+.menu button {
+    padding:20px;
+    font-size:18px;
+    border:none;
+    border-radius:15px;
+    background:white;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu button:hover {
+    background:#2b6cb0;
+    color:white;
+}
+
+.secao { display:none; }
+.ativo { display:block; }
+
+.voltar {
+    margin-bottom:15px;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background:#2b6cb0;
+    color:white;
+    cursor:pointer;
+}
+
+.grid { display:grid; gap:12px; }
+
+.botao {
+    background:white;
+    padding:14px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#222;
+    font-weight:bold;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.botao:hover {
+    background:#2b6cb0;
+    color:white;
+}
+</style>
+
+<script>
+function mostrar(secao){
+    document.getElementById("menu").style.display="none";
+    document.getElementById(secao).classList.add("ativo");
+}
+function voltar(){
+    document.getElementById("menu").style.display="grid";
+    document.getElementById("s67").classList.remove("ativo");
+    document.getElementById("s89").classList.remove("ativo");
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="topo">
+    <div>
+        <div class="titulo">Aprenda Matemática Brincando</div>
+        <div class="subtitulo">Prof. Ary</div>
+    </div>
+    <img src="coruja.png" class="coruja">
+</div>
+
+<div class="container">
+
+<div id="menu" class="menu">
+    <button onclick="mostrar('s67')">📘 6º e 7º Ano</button>
+    <button onclick="mostrar('s89')">📗 8º e 9º Ano</button>
+</div>
+
+<div id="s67" class="secao">
+<button class="voltar" onclick="voltar()">⬅ Voltar</button>
+<div class="grid">
+
+<a class="botao" href="https://wordwall.net/play/101830/366/344" target="_blank">SUBMARINO DA EQUAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/97746/870/152" target="_blank">EQUAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/109694/862/602" target="_blank">SOMA DE FRANÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/109694/186/392" target="_blank">RETA NUMÉRICA</a>
+<a class="botao" href="https://wordwall.net/play/110270/538/631" target="_blank">MULTIPLICAÇÃO DE FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/143/631" target="_blank">DIVISÃO DE FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/455/631" target="_blank">FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/313/631" target="_blank">FRAÇÃO 2</a>
+<a class="botao" href="https://wordwall.net/play/110270/206/631" target="_blank">FRAÇÃO 3</a>
+<a class="botao" href="https://wordwall.net/play/110270/772/631" target="_blank">FRAÇÃO 4</a>
+<a class="botao" href="https://wordwall.net/play/110270/408/631" target="_blank">FRAÇÃO 5</a>
+<a class="botao" href="https://wordwall.net/play/110270/949/631" target="_blank">FRAÇÃO 6</a>
+<a class="botao" href="https://wordwall.net/play/110270/597/631" target="_blank">FRAÇÃO 7</a>
+<a class="botao" href="https://wordwall.net/play/110270/356/631" target="_blank">FRAÇÃO 8</a>
+<a class="botao" href="https://wordwall.net/play/110270/876/631" target="_blank">FRAÇÃO 9</a>
+
+</div>
+</div>
+
+<div id="s89" class="secao">
+<button class="voltar" onclick="voltar()">⬅ Voltar</button>
+<div class="grid">
+
+<a class="botao" href="https://wordwall.net/play/97746/870/152" target="_blank">EQUAÇÃO 8º E 9º</a>
+<a class="botao" href="https://wordwall.net/play/109694/862/602" target="_blank">SOMA DE FRANÇÃO 8º E 9º</a>
+<a class="botao" href="https://wordwall.net/play/109694/186/392" target="_blank">RETA NUMÉRICA 8º E 9º</a>
+<a class="botao" href="https://wordwall.net/play/110270/538/631" target="_blank">MULTIPLICAÇÃO FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/143/631" target="_blank">DIVISÃO FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/455/631" target="_blank">FRAÇÃO</a>
+<a class="botao" href="https://wordwall.net/play/110270/313/631" target="_blank">FRAÇÃO 2</a>
+<a class="botao" href="https://wordwall.net/play/110270/206/631" target="_blank">FRAÇÃO 3</a>
+<a class="botao" href="https://wordwall.net/play/110270/772/631" target="_blank">FRAÇÃO 4</a>
+<a class="botao" href="https://wordwall.net/play/110270/408/631" target="_blank">FRAÇÃO 5</a>
+<a class="botao" href="https://wordwall.net/play/110270/949/631" target="_blank">FRAÇÃO 6</a>
+<a class="botao" href="https://wordwall.net/play/110270/597/631" target="_blank">FRAÇÃO 7</a>
+<a class="botao" href="https://wordwall.net/play/110270/356/631" target="_blank">FRAÇÃO 8</a>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
